@@ -1,0 +1,43 @@
+[{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "2015-12-14",
+  "url": "https://www.snopes.com/fact-check/ps-169-pledge-allegiance-holiday-ban-controversy/",
+  "sdLicense": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "author": {
+    "@type": "Organization",
+    "url": "https://www.snopes.com",
+    "name": "Snopes.com"
+  },
+  "claimReviewed": "PS 169 Principal Eujin Jaela Kim banned the Pledge of Allegiance, Santa, and Thanksgiving.",
+  "reviewRating": {
+    "@type": "Rating",
+    "alternateName": "Mostly False"
+  }
+},
+{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "datePublished": "2017-08-21",
+  "url": "https://www.factcheck.org/2017/08/driver-acting-self-defense/",
+  "sdLicense": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "author": {
+    "@type": "Organization",
+    "url": "https://www.factcheck.org/",
+    "name": "FactCheck.org"
+  },
+  "claimReviewed": "Claims video corroborates its story that \u201cpolice officers in Charlottesville believed the driver was not acting maliciously.\u201d",
+  "reviewRating": {
+    "@type": "Rating",
+    "alternateName": "False"
+  },
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "author": {
+      "@type": "Organization",
+      "name": "Department of Memes"
+    },
+    "datePublished": "2017-08-13"
+  }
+}
+]
