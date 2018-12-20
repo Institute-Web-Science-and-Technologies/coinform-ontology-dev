@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
@@ -20,7 +21,7 @@ import junit.framework.TestCase;
 public class RdfMapperTest extends TestCase {
 
 	final public String CLAIM_REVIEWS = "claimReviewTest.json";
-	final public String CLAIM_REVIEWS_TTL = "claimReviewTest.ttl";
+	final public String CLAIM_REVIEWS_TTL = "claimReview.ttl";
 	private List<Map> claimReviewList;
 	private File dest;
 
@@ -36,6 +37,8 @@ public class RdfMapperTest extends TestCase {
 	@Test
 	public void testToRdf() throws JsonLdError, JsonGenerationException, IOException {
 		RdfMapper.toRdf(claimReviewList, dest);
+		Assert.assertTrue(dest.exists());
+		dest.delete();
 
 	}
 
