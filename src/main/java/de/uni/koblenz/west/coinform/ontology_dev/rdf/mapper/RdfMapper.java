@@ -6,13 +6,12 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.jena.rdf.model.RDFWriter;
-import org.apache.jena.rdf.model.impl.ModelCom;
-
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.github.jsonldjava.core.JsonLdError;
 import com.github.jsonldjava.core.JsonLdProcessor;
 import com.github.jsonldjava.jena.JenaTripleCallback;
+import com.hp.hpl.jena.rdf.model.RDFWriter;
+import com.hp.hpl.jena.rdf.model.impl.ModelCom;
 
 public class RdfMapper {
 
